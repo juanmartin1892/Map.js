@@ -1,4 +1,4 @@
 .gitignore
 node_modules
 platforms/android
-www/spec/lib/
+www/spec/lib
