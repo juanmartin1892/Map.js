@@ -1,0 +1,13 @@
+<section class="md-whiteframe-z3" layout="column" layout-align="center center">
+    <div>
+      <md-progress-circular ng-show = "geoDetails.pos.Latitude == undifind" class="md-hue-2" md-mode="indeterminate"></md-progress-circular>
+    </div>
+    <div>
+      <h2 ng-show = "geoDetails.pos.Latitude">
+        Latitude = {{geoDetails.pos.Latitude}}
+      </h2>
+      <h2 ng-show = "geoDetails.pos.Latitude">
+        Longitude = {{geoDetails.pos.Longitude}}
+      </h2>
+    </div>
+  </section>
