@@ -12,7 +12,7 @@ function GeoDetailsController ($interval){
     self.pos = {};
     self.pos.Latitude = position.coords.latitude;
     self.pos.Longitude= position.coords.longitude;
-  };
+  }
 // onError Callback receives a PositionError object
 //
   function onError(error) {
@@ -22,7 +22,7 @@ function GeoDetailsController ($interval){
 
   self.geo = function(){
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
-  };
+  }
 
 
   $interval(self.geo, 750);
