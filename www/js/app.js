@@ -5,5 +5,4 @@ angular.module('StarterApp').controller('AppCtrl', ['$scope', '$mdSidenav', func
   $scope.toggleSidenav = function(menuId) {
     $mdSidenav(menuId).toggle();
   };
-
 }]);
